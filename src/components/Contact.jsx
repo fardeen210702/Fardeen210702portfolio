@@ -28,7 +28,7 @@ function Contact() {
       {/* ================================== */}
 
       <div className="sendmessage w-full px-2 flex flex-col items-center md:w-1/2">
-        <h1 className='text-xl font-bold my-3'>Send me your Expirence 😁</h1>
+        <h1 className='text-xl font-bold my-3'>Send me your Experience 😁</h1>
         <form  action="https://formspree.io/f/xnqeppzq" className='w-full space-y-3  ' method='POST'>
 
           <div className=" detail flex flex-col items-start w-full px-3">
