@@ -123,8 +123,10 @@ function App() {
               }
               {
                 ignoreFirstQuestion && <>
-                  <li className="border bg-[#c4fcef] p-1 rounded-lg  active:bg-[#83f3d9] font-normal" onClick={hideShow}> It's fine , Fardeen knows how lazy you are!! </li>
+                  <li className="border bg-[#c4fcef] p-1 rounded-lg  active:bg-[#83f3d9] font-normal" > It's fine , Fardeen knows how lazy you are!! </li>
                   <button className="mt-3 py-1 px-5 rounded-md font-bold bg-[#c4fcef] active:bg-[#83f3d9] " onClick={back}>back</button>
+                  <button className="mt-3 ml-2 py-1 px-5 rounded-md font-bold bg-[#c4fcef] active:bg-[#83f3d9] "  onClick={handleDisplay}>Exit</button>
+                
 
                 </>
               }
