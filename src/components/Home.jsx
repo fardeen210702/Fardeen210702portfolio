@@ -8,7 +8,7 @@ import { IoLogoJavascript } from "react-icons/io5";
 import { SiGreensock } from "react-icons/si"
 import { FaReact } from "react-icons/fa6";
 import { BiLogoTailwindCss } from "react-icons/bi";
-
+import resume from '../database/resume.pdf'
 
 
 function Home() {
@@ -23,13 +23,15 @@ function Home() {
     <img className='w-full h-full object-cover' src={img} alt="" />
   </figure>
 
-  <div className='w-full  flex flex-col items-center p-3 mt-3  sm:w-1/2 xl:w-1/3 '>
+  <div className='w-full  flex flex-col items-center jp-3 mt-3  sm:w-1/2 xl:w-1/3 '>
           <h1 className='text-4xl text-center font-extrabold md:text-4xl lg:text-5xl'>Front-End React👋🏻 Developer </h1>
           <p className='text-center mt-3 text-xl text-gray-400 md:text-md'> Hi, I'm Mohammed Fardeen. A passionate Front-end React Developer.</p>
-          <ul className='flex p-2 mt-3 w-full gap-3 justify-center'>
+          <ul className='flex p-2 mt-3 w-full gap-3 justify-center items-center'>
             <li className='text-3xl lg:text-4xl'> <a href="https://github.com/fardeen210702" target='_blank'> <FaGithub /></a></li>
             <li className='text-3xl lg:text-4xl'> <a href='https://www.linkedin.com/in/fardeen-mohammed-579518271/' target='_blank'>
               <FaLinkedinIn /></a></li>
+              <li className='text-xl  border-2 border-white py-1 px-2 rounded-sm font-semibold hover:text-black hover:bg-white transition-all duration-300 ease-in-out' > <a href={resume} download='fardeen'>resume</a></li>
+
           </ul>
         </div>
         </div>
