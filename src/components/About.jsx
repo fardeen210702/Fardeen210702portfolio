@@ -3,7 +3,7 @@ import img2 from '../images/pic.jpg'
 
 function About() {
   return (
-    <div className='h-min  text-white w-full py-[10%] xl:py-[6%] md
+    <div className='h-min mt-4 text-white w-full py-[10%] xl:py-[6%] md
     :py-[5%]  flex justify-center'>
       <div className="aboutme w-[90%] flex flex-col  h-full items-center  rounded-md md:flex-row md:justify-center md:w-[80%] md:gap-10 ">
 

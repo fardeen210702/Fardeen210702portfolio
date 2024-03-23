@@ -7,6 +7,7 @@ import { IoLogoHtml5, IoLogoCss3 } from "react-icons/io"
 import { IoLogoJavascript } from "react-icons/io5";
 import { SiGreensock } from "react-icons/si"
 import { FaReact } from "react-icons/fa6";
+import {SiNextdotjs} from "react-icons/si"
 import { BiLogoTailwindCss } from "react-icons/bi";
 import resume from '../database/resume.pdf'
 
@@ -23,7 +24,7 @@ function Home() {
     <img className='w-full h-full object-cover' src={img} alt="" />
   </figure>
 
-  <div className='w-full  flex flex-col items-center jp-3 mt-3  sm:w-1/2 xl:w-1/3 '>
+  <div className='w-full   flex flex-col items-center jp-3 mt-3  sm:w-1/2 xl:w-1/3 '>
           <h1 className='text-4xl text-center font-extrabold md:text-4xl lg:text-5xl'>Front-End React👋🏻 Developer </h1>
           <p className='text-center mt-3 text-xl text-gray-400 md:text-md'> Hi, I'm Mohammed Fardeen. A passionate Front-end React Developer.</p>
           <ul className='flex p-2 mt-3 w-full gap-3 justify-center items-center'>
@@ -37,7 +38,7 @@ function Home() {
         </div>
 
         
-        <div className="stack flex flex-col gap-1 items-center justify-center font-bold mt-5  z-10 text-white rounded-lg border-[black] md:border-[#00000000] ">
+        <div className="stack flex flex-col gap-1 items-center justify-center font-bold mt-14  z-10 text-white rounded-lg border-[black] md:border-[#00000000] ">
         <h1 className='text-xl underline xl:text-2xl'>Techstack </h1>
         <ul className='flex gap-3 sm:gap-3 lg:gap-1 p-2 flex-wrap mt-4 justify-center '>
           <div className='flex gap-1 '>
@@ -49,8 +50,15 @@ function Home() {
             <li className='text-5xl text-blue-500 rounded-lg p-1  hover:bg-white transition-all ease-in duration-200 hover:scale-95 xl:text-6xl'> <BiLogoTailwindCss /></li>
           </div>
           <div className='flex gap-1'>
-            <li className='text-5xl text-pink-500 rounded-lg p-1  hover:bg-white transition-all ease-in duration-200 hover:scale-95 xl:text-6xl'> <FaSass /></li>
+
             <li className='text-5xl text-blue-500 rounded-lg p-1  hover:bg-white transition-all ease-in duration-200 hover:scale-95 xl:text-6xl'> <FaReact /></li>
+            <li className='text-5xl  rounded-lg p-1  hover:text-black hover:bg-white transition-all ease-in duration-200 hover:scale-95 xl:text-6xl'> <SiNextdotjs /></li>
+
+          </div >
+
+
+          <div className='flex gap-1'>
+            <li className='text-5xl text-pink-500 rounded-lg p-1  hover:bg-white transition-all ease-in duration-200 hover:scale-95 xl:text-6xl'> <FaSass /></li>
             <li className='text-5xl text-green-500 hover:text-black rounded-lg p-1  hover:bg-white transition-all ease-in duration-200 hover:scale-95 xl:text-6xl'> <SiGreensock /></li>
 
           </div>
