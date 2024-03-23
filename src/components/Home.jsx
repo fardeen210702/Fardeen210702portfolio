@@ -40,7 +40,7 @@ function Home() {
         
         <div className="stack flex flex-col gap-1 items-center justify-center font-bold mt-14  z-10 text-white rounded-lg border-[black] md:border-[#00000000] ">
         <h1 className='text-xl underline xl:text-2xl'>Techstack </h1>
-        <ul className='flex gap-3 sm:gap-3 lg:gap-1 p-2 flex-wrap mt-4 justify-center '>
+        <ul className='flex gap-3 sm:gap-3 lg:gap-1 p-2 px-3 flex-wrap mt-4 justify-center '>
           <div className='flex gap-1 '>
             <li className='text-5xl text-orange-500 rounded-lg p-1  hover:bg-white transition-all ease-in duration-200 hover:scale-95 xl:text-6xl' > <IoLogoHtml5 /></li>
             <li className='text-5xl text-blue-500 rounded-lg p-1  hover:bg-white transition-all ease-in duration-200 hover:scale-95 xl:text-6xl'> <IoLogoCss3 /></li>
